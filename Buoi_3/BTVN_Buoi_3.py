@@ -35,4 +35,4 @@ vdv1=int(input("Số giây về đích của vận động viên thứ nhất l�
 vdv2=int(input("Số giây về đích của vận động viên thứ hai là:"))
 vdv3=int(input("Số giây về đích của vận động viên thứ ba là:"))
 dtb=(vdv1+vdv2+vdv3)/3
-print("Số giây trung bình các vận động viên về đích là:",round(dtb,2),"s")
+print(f"Số giây trung bình các vận động viên về đích là: {round(dtb,2)}s")
