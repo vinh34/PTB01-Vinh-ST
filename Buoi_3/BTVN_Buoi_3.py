@@ -31,8 +31,8 @@ pi=3.14
 cv=2*r*pi
 dt=pi*(r**2)
 print("Diện tích là:",dt,"Chu vi là:",cv)
-vdv1=float(input("Số giây về đích của vận động viên thứ nhất là:"))
-vdv2=float(input("Số giây về đích của vận động viên thứ hai là:"))
-vdv3=float(input("Số giây về đích của vận động viên thứ ba là:"))
+vdv1=int(input("Số giây về đích của vận động viên thứ nhất là:"))
+vdv2=int(input("Số giây về đích của vận động viên thứ hai là:"))
+vdv3=int(input("Số giây về đích của vận động viên thứ ba là:"))
 dtb=(vdv1+vdv2+vdv3)/3
 print("Số giây trung bình các vận động viên về đích là:",dtb)
